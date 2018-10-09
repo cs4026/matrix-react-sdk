@@ -232,6 +232,7 @@ class PasswordLogin extends React.Component {
     }
 
     render() {
+        console.log("Hello from render",localStorage.getItem('carlos'));
         let forgotPasswordJsx;
 
         if (this.props.onForgotPasswordClick) {
